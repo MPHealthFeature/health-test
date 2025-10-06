@@ -7,7 +7,7 @@
  *
  * Contributors:
  *     IBM Corporation - Initial implementation
- *******************************************************************************/
+ *****************************************************************************/
 
 package it.io.openliberty.sample.health;
 
