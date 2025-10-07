@@ -40,7 +40,7 @@ public class SystemHealth implements HealthCheck {
     if (!startupDelayCompleted) {
       try {
         System.out.println("Delaying application readiness for 180 seconds...");
-        Thread.sleep(180000); // 180 seconds = 3 minutes
+        Thread.sleep(1000); // 180 seconds = 3 minutes
         startupDelayCompleted = true;
         System.out.println("Startup delay completed. Application is now ready.");
       } catch (InterruptedException e) {
